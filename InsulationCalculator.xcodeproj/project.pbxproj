@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FCD172228D15EC300558AF2 /* InsulationCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD172128D15EC300558AF2 /* InsulationCalculatorApp.swift */; };
+		8FCD172428D15EC300558AF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD172328D15EC300558AF2 /* ContentView.swift */; };
+		8FCD172628D15EC500558AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCD172528D15EC500558AF2 /* Assets.xcassets */; };
+		8FCD172928D15EC500558AF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCD172828D15EC500558AF2 /* Preview Assets.xcassets */; };
+		8FCD173028D15FD800558AF2 /* AtticQuoteObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD172F28D15FD800558AF2 /* AtticQuoteObject.swift */; };
+		8FCD173228D188A100558AF2 /* AtticQuoteInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD173128D188A100558AF2 /* AtticQuoteInput.swift */; };
+		8FCD173428D188C800558AF2 /* AtticQuoteVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD173328D188C800558AF2 /* AtticQuoteVerify.swift */; };
+		8FCD173628D1892100558AF2 /* AtticQuoteOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD173528D1892100558AF2 /* AtticQuoteOutput.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FCD171E28D15EC300558AF2 /* InsulationCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsulationCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCD172128D15EC300558AF2 /* InsulationCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsulationCalculatorApp.swift; sourceTree = "<group>"; };
+		8FCD172328D15EC300558AF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8FCD172528D15EC500558AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FCD172828D15EC500558AF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FCD172F28D15FD800558AF2 /* AtticQuoteObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtticQuoteObject.swift; sourceTree = "<group>"; };
+		8FCD173128D188A100558AF2 /* AtticQuoteInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtticQuoteInput.swift; sourceTree = "<group>"; };
+		8FCD173328D188C800558AF2 /* AtticQuoteVerify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtticQuoteVerify.swift; sourceTree = "<group>"; };
+		8FCD173528D1892100558AF2 /* AtticQuoteOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtticQuoteOutput.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FCD171B28D15EC300558AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FCD171528D15EC300558AF2 = {
+			isa = PBXGroup;
+			children = (
+				8FCD172028D15EC300558AF2 /* InsulationCalculator */,
+				8FCD171F28D15EC300558AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FCD171F28D15EC300558AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FCD171E28D15EC300558AF2 /* InsulationCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FCD172028D15EC300558AF2 /* InsulationCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				8FCD172128D15EC300558AF2 /* InsulationCalculatorApp.swift */,
+				8FCD172F28D15FD800558AF2 /* AtticQuoteObject.swift */,
+				8FCD172328D15EC300558AF2 /* ContentView.swift */,
+				8FCD173128D188A100558AF2 /* AtticQuoteInput.swift */,
+				8FCD173328D188C800558AF2 /* AtticQuoteVerify.swift */,
+				8FCD173528D1892100558AF2 /* AtticQuoteOutput.swift */,
+				8FCD172528D15EC500558AF2 /* Assets.xcassets */,
+				8FCD172728D15EC500558AF2 /* Preview Content */,
+			);
+			path = InsulationCalculator;
+			sourceTree = "<group>";
+		};
+		8FCD172728D15EC500558AF2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8FCD172828D15EC500558AF2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FCD171D28D15EC300558AF2 /* InsulationCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCD172C28D15EC500558AF2 /* Build configuration list for PBXNativeTarget "InsulationCalculator" */;
+			buildPhases = (
+				8FCD171A28D15EC300558AF2 /* Sources */,
+				8FCD171B28D15EC300558AF2 /* Frameworks */,
+				8FCD171C28D15EC300558AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsulationCalculator;
+			productName = InsulationCalculator;
+			productReference = 8FCD171E28D15EC300558AF2 /* InsulationCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FCD171628D15EC300558AF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8FCD171D28D15EC300558AF2 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 8FCD171928D15EC300558AF2 /* Build configuration list for PBXProject "InsulationCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FCD171528D15EC300558AF2;
+			productRefGroup = 8FCD171F28D15EC300558AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FCD171D28D15EC300558AF2 /* InsulationCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FCD171C28D15EC300558AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCD172928D15EC500558AF2 /* Preview Assets.xcassets in Resources */,
+				8FCD172628D15EC500558AF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FCD171A28D15EC300558AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCD173428D188C800558AF2 /* AtticQuoteVerify.swift in Sources */,
+				8FCD173228D188A100558AF2 /* AtticQuoteInput.swift in Sources */,
+				8FCD173028D15FD800558AF2 /* AtticQuoteObject.swift in Sources */,
+				8FCD172428D15EC300558AF2 /* ContentView.swift in Sources */,
+				8FCD172228D15EC300558AF2 /* InsulationCalculatorApp.swift in Sources */,
+				8FCD173628D1892100558AF2 /* AtticQuoteOutput.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8FCD172A28D15EC500558AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FCD172B28D15EC500558AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FCD172D28D15EC500558AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InsulationCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = SBH42U9C4V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Insulation;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clancythomas.InsulationCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FCD172E28D15EC500558AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InsulationCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = SBH42U9C4V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Insulation;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clancythomas.InsulationCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FCD171928D15EC300558AF2 /* Build configuration list for PBXProject "InsulationCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCD172A28D15EC500558AF2 /* Debug */,
+				8FCD172B28D15EC500558AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCD172C28D15EC500558AF2 /* Build configuration list for PBXNativeTarget "InsulationCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCD172D28D15EC500558AF2 /* Debug */,
+				8FCD172E28D15EC500558AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FCD171628D15EC300558AF2 /* Project object */;
+}
