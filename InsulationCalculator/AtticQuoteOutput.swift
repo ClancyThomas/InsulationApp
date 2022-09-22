@@ -31,9 +31,6 @@ struct AtticQuoteOutputPage: View {
                         Text("Quote 1")
                             .font(.title2)
                             .fontWeight(.bold)
-                            .onAppear {
-                                atticQuoteOne.calculateTotalQuote()
-                            }
                         Spacer()
                     
                     }
@@ -102,9 +99,6 @@ struct AtticQuoteOutputPage: View {
                         Text("Quote 2")
                             .font(.title2)
                             .fontWeight(.bold)
-                            .onAppear {
-                                atticQuoteTwo.calculateTotalQuote()
-                            }
                         Spacer()
                     
                     }

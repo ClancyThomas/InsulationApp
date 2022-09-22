@@ -32,6 +32,9 @@ struct AtticQuoteVerifyInputPage: View {
                     Text("Quote 1")
                         .font(.title2)
                         .fontWeight(.bold)
+                        .onAppear {
+                            atticQuoteOne.calculateTotalQuote()
+                        }
                     Spacer()
                 }
                 Text("Adding R-Value: R-\(atticQuoteOne.rValue, specifier: "%.0f")")
@@ -52,6 +55,7 @@ struct AtticQuoteVerifyInputPage: View {
                             atticQuoteTwo.adminFee = atticQuoteOne.adminFee
                             atticQuoteTwo.baffles = atticQuoteOne.baffles
                             atticQuoteTwo.airSeal = atticQuoteOne.airSeal
+                            atticQuoteTwo.calculateTotalQuote()
                         }
                     Spacer()
                 }
